@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'login' => 'sessions#new', as: 'new_session'
   root 'application#index'
   
+  
 
   resources :session
 
