@@ -6,7 +6,11 @@ class ApplicationController < ActionController::Base
 
   
   def current_user 
+<<<<<<< HEAD
     session[:name]
+=======
+    if session[:name]
+>>>>>>> 41896c5c8bebac2cd4ba163b3ef626f1dd2974ce
   end   
   
 end

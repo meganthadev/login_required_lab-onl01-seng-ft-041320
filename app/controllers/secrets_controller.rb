@@ -1,4 +1,5 @@
 class SecretsController < ApplicationController 
+<<<<<<< HEAD
   before_action :authenticate
 
   def show
@@ -11,3 +12,17 @@ class SecretsController < ApplicationController
   end
   
 end
+=======
+  before_action :require_login
+  
+  def show 
+  end 
+  
+  private 
+  
+  def require_login
+    return head(:forbidden) unless session.include? :user_id
+  end   
+  
+end   
+>>>>>>> 41896c5c8bebac2cd4ba163b3ef626f1dd2974ce
