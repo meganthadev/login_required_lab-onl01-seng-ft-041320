@@ -1,5 +1,5 @@
 class SecretsController < ApplicationController 
-<<<<<<< HEAD
+
   before_action :authenticate
 
   def show
@@ -12,7 +12,7 @@ class SecretsController < ApplicationController
   end
   
 end
-=======
+
   before_action :require_login
   
   def show 
