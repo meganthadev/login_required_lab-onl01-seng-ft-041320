@@ -13,10 +13,6 @@ class SecretsController < ApplicationController
   
 end
 
-  before_action :require_login
-  
-  def show 
-  end 
   
   private 
   
@@ -25,4 +21,3 @@ end
   end   
   
 end   
->>>>>>> 41896c5c8bebac2cd4ba163b3ef626f1dd2974ce
